@@ -1,5 +1,5 @@
 name: tripseat
-description: "A new Flutter project."
+description: "TripSeat"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -59,8 +59,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - lib/assets/images/sign_in_top.png
-    - lib/assets/images/sign_in_bottom.png
+    - assets/images/sign_in_top.png
+    - assets/images/sign_in_bottom.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
@@ -76,22 +76,22 @@ flutter:
   fonts:
     - family: Philosopher
       fonts:
-        - asset: lib/assets/fonts/Philosopher-Regular.ttf
+        - asset: assets/fonts/Philosopher-Regular.ttf
           weight: 400
 
     - family: Manjari
       fonts:
-        - asset: lib/assets/fonts/Manjari-Regular.ttf
+        - asset: assets/fonts/Manjari-Regular.ttf
           weight: 400
-        - asset: lib/assets/fonts/Manjari-Thin.ttf
+        - asset: assets/fonts/Manjari-Thin.ttf
           weight: 100
                     
     - family: InstrumentSans
       fonts:
-        - asset: lib/assets/fonts/InstrumentSans-Medium.ttf
-        - asset: lib/assets/fonts/InstrumentSans-Regular.ttf
+        - asset: assets/fonts/InstrumentSans-Medium.ttf
+        - asset: assets/fonts/InstrumentSans-Regular.ttf
           weight: 400
-        - asset: lib/assets/fonts/InstrumentSans-SemiBold.ttf
+        - asset: assets/fonts/InstrumentSans-SemiBold.ttf
           weight: 600
   #
   # For details regarding fonts from package dependencies,
