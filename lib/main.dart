@@ -14,8 +14,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'TripSeat',
       theme: ThemeData(
-        scaffoldBackgroundColor: Color.fromARGB(255, 255, 255, 255),
-        fontFamily: 'Manjari',
+        scaffoldBackgroundColor: Colors.white,
+        fontFamily: 'InstrumentSans',
       ),
       home: const WelcomeScreen(),
     );
